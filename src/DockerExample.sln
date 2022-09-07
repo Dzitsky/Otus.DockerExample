@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerExample.WebCore", "DockerExample.WebCore\DockerExample.WebCore.csproj", "{C504EF8F-1FEE-46AD-AB03-6963D7D695CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerExample.Domain", "DockerExample.Domain\DockerExample.Domain.csproj", "{2883F1F7-79DA-4C39-88AC-4EA3F8C7E364}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerExample.DataAccess", "DockerExample.DataAccess\DockerExample.DataAccess.csproj", "{2FD99519-526F-40A4-882A-434C488276F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C504EF8F-1FEE-46AD-AB03-6963D7D695CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C504EF8F-1FEE-46AD-AB03-6963D7D695CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C504EF8F-1FEE-46AD-AB03-6963D7D695CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C504EF8F-1FEE-46AD-AB03-6963D7D695CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2883F1F7-79DA-4C39-88AC-4EA3F8C7E364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2883F1F7-79DA-4C39-88AC-4EA3F8C7E364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2883F1F7-79DA-4C39-88AC-4EA3F8C7E364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2883F1F7-79DA-4C39-88AC-4EA3F8C7E364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FD99519-526F-40A4-882A-434C488276F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD99519-526F-40A4-882A-434C488276F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD99519-526F-40A4-882A-434C488276F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD99519-526F-40A4-882A-434C488276F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+version: '3'
+services:
+  #Web
+  docker-example-web:
+    build: src/DockerExample
+    container_name: 'docker-example-web'
+    restart: always
+    ports:
+      - "8091:80"
+    depends_on:
+      - docker-example-db
+  #Db
+  docker-example-db:
+    image: "postgres:9.6.17"
+    container_name: 'docker-example-db'
+    restart: always
+    ports:
+      - 5433:5432
+    environment:
+      - POSTGRES_PASSWORD=1
